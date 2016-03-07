@@ -1,8 +1,9 @@
- # Mean Shift Image Segmentation
- #### An Implementation using the TensorFlow Framework
+# Mean Shift Image Segmentation
+
+#### An Implementation using the TensorFlow Framework
 
 
- ## Overview
+## Overview
  Image segmentation provides us with an easier way to analyse an image by clustering similar parts of image together so the they may be analysed as a single unit. The result is a set of segments or contours which significantly differentiate different areas of the image. We will be implementing the Mean Shift Image Segmentation Method.
 
  Mean Shift Clustering is a non-parametric kernel density estimation technique, that clusters points based on repeatedly updating the mean. The means will dictate how the image will be segmented and the number of such segments.  
